@@ -1,0 +1,298 @@
+*{
+    margin: 0;
+    padding:0;
+}
+/*Ovaj deo koda uredjuje vrh stranice*/
+.pre-header{
+    background-color:#581845 ;
+    height: 65px;
+    color: #fff;
+    padding-top: 25px ;
+}
+.pre-header li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+}
+.main-menu{
+    /*sklanja tacke ispred elemenata*/
+    list-style: none;
+}
+/*ovako pristupamo nekom elementu, ovde samo idemo do li*/
+.pre-header .secondery-menu li{
+    /*Naredba za postavljanje elemenata u jednom redu*/
+    display: inline-block;
+    /* Razmak izmedju elemenata*/
+    margin-left: 140px;
+
+
+}/*Ovde uredjujemo element*/
+.pre-header .secondery-menu li a{
+    color:#E3CB76;
+    text-transform: uppercase;
+
+}
+.main-menu .main{
+    color:#E3CB76;
+    list-style: none;
+    margin-top:65px;
+    margin-left: 124px;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+}
+.main-menu  .main  .git a{
+    background-color: #72206E;
+
+    color:#E3CB76;
+    border-radius: 21px;
+    padding: 10px;
+}
+.main-menu  .main  .blog a{
+    background-color: #72206E;
+
+    color:#E3CB76;
+    border-radius: 21px;
+    padding: 10px;
+}
+.main-menu  .main  .news a{
+    background-color: #72206E;
+
+    color:#E3CB76;
+    border-radius: 21px;
+    padding: 10px;
+}
+.main-menu  .main  .projects a{
+    background-color: #72206E;
+    color:#E3CB76;
+    border-radius: 21px;
+    padding: 10px;
+}
+.main-menu  .main  .git a:hover{
+    color:#72206E;
+    background-color:#E3CB76;
+    text-decoration: none;
+    transition: 0.5s;
+
+}
+.main-menu  .main  .blog a:hover{
+    color:#72206E;
+    background-color:#E3CB76;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.main-menu  .main  .news a:hover{
+    color:#72206E;
+    background-color:#E3CB76;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.main-menu  .main  .projects a:hover{
+    color:#72206E;
+    background-color:#E3CB76;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.main-menu .main li{
+    display: inline-block;
+    margin-left: 15px;
+}
+.hero-section{
+    background-image:url("../slike/pozadina1.jpg");
+}
+.hero-section{
+    color:#E3CB76;
+    text-transform: uppercase;
+    padding: 150px;
+    background-size:cover;
+}
+.hero-section h1{
+    color:#E3CB76;
+    font-size: 54px;
+}
+.hero-section a{
+    background-color: #72206E;
+    padding: 14px;
+    color:#E3CB76;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 25px;
+}
+.hero-section a:hover {
+    color:#72206E;
+    background-color:#E3CB76;
+    text-decoration: none;
+    transition: 1s;
+    border-radius: 0;
+}
+.naseUsluge{
+    padding-bottom: 100px;
+}
+.naseUsluge h2{
+    text-align: center;
+    margin-top:50px;
+    color:#660066;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+}
+.naseUsluge .prvaSlika{
+    background-color: #72206E;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 50px;
+    -webkit-box-shadow: 0 -5px 12px 3px rgba(166,157,115,0.81);
+    -moz-box-shadow: 0 -5px 12px 3px rgba(166,157,115,0.81);
+    box-shadow: 0 -5px 12px 3px rgba(166,157,115,0.81);
+}
+.naseUsluge .slika2{
+    background-color: #72206E;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 50px;
+    -webkit-box-shadow: 0 -5px 12px 3px rgba(166,157,115,0.81);
+    -moz-box-shadow: 0 -5px 12px 3px rgba(166,157,115,0.81);
+    box-shadow: 0 -5px 12px 3px rgba(166,157,115,0.81);
+}
+.naseUsluge .slika3{
+    background-color: #72206E;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 50px;
+    -webkit-box-shadow: 0 -5px 12px 3px rgba(166,157,115,0.81);
+    -moz-box-shadow: 0 -5px 12px 3px rgba(166,157,115,0.81);
+    box-shadow: 0 -5px 12px 3px rgba(166,157,115,0.81);
+}
+.naseUsluge .prvaSlika h4{
+    color:#E3CB76;
+    text-align: center;
+}
+.naseUsluge .slika2 h4{
+    color:#E3CB76;
+    text-align: center;
+}
+.naseUsluge .slika3 h4{
+    color:#E3CB76;
+    text-align: center;
+}
+.naseUsluge h2{
+    padding-top:20px ;
+    padding-bottom: 50px;
+}
+.naseUsluge .prvaSlika:hover{
+    background-color:#E3CB76;
+    transition: 0.5s;
+    /*pomera sliku kada predjemo preko nje*/
+    margin-top:-7px;
+    -webkit-box-shadow: -6px -3px 3px 1px rgba(168,54,168,3);
+    -moz-box-shadow: -6px -3px 3px 1px rgba(168,54,168,3);
+    box-shadow: -6px -3px 3px 1px rgba(168,54,168,3);
+}
+.naseUsluge .slika2:hover{
+    background-color:#E3CB76;
+    transition: 0.5s;
+    margin-top:-7px;
+    -webkit-box-shadow: -6px -3px 3px 1px rgba(168,54,168,3);
+    -moz-box-shadow: -6px -3px 3px 1px rgba(168,54,168,3);
+    box-shadow: -6px -3px 3px 1px rgba(168,54,168,3);
+}
+.naseUsluge .slika3:hover{
+    background-color:#E3CB76;
+    transition: 0.5s;
+    margin-top:-7px;
+    -webkit-box-shadow: -6px -3px 3px 1px rgba(168,54,168,3);
+    -moz-box-shadow: -6px -3px 3px 1px rgba(168,54,168,3);
+    box-shadow: -6px -3px 3px 1px rgba(168,54,168,3);
+}
+.kakoRadimo{
+    text-align: center;
+    background-image: url(../slike/pozadina2.jpg) ;
+    color:#E3CB76;
+    /*Ako je slika mala i ponavlja se, kod ispod sredjuje to*/
+    background-size: cover;
+    padding-top:50px ;
+    padding-bottom: 60px ;
+}
+.kakoRadimo h3{
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+}
+.kakoRadimo .modal .modal-dialog{
+    max-width: 700px;
+}
+
+
+.podaci h3{
+    text-transform: uppercase;
+    color:#72206E;
+    font-weight: bold;
+    padding-top: 70px;
+    text-align: center;
+}
+.kakoRadimo{
+    margin-bottom: 200px;
+}
+.kontakt{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-image: url("../slike/pp.jpg");
+    color:#E3CB76;
+    text-transform: uppercase;
+}
+.kontakt h4{
+    font-size: 16px;
+}
+.kontakt .pitanje{
+    font-size: 27px;
+}
+.kontakt h2{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.kontakt .mejl{
+    text-transform: lowercase;
+}
+.kontakt .telefon{
+    text-transform: lowercase;
+}
+.kontakt form{
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 1px solid rgba(255, 255, 255, 0);
+    padding: 50px;
+}
+.kontakt form textarea, .kontakt form input, .kontakt form button{
+    width: 100%;
+    height: 40px;
+    border: 0;
+    margin-bottom: 15px;
+}
+.kontakt form textarea{
+    height: 80px;
+}
+.kontakt form button{
+    background-color: #660066;
+    color:#E3CB76;
+    text-transform: uppercase;
+    font-weight: bold;
+    position:absolute;
+    bottom: 0;
+    width: 250px;
+}
+.kontakt form label{
+    text-transform: uppercase;
+    font-weight: bold;
+    color:rgba(255,255,255,0.7);
+}
+
+
+
+
+
